@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Basketball Score Tracker</title>
+		<link
+			rel="stylesheet"
+			href="index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<h3>HOME</h3>
+				<div class="counter-display">
+					<h1 id="counter-display-home">0</h1>
+				</div>
+				<div class="increment-buttons">
+					<button onclick="incrementScore(1, 'home')">+1</button>
+					<button onclick="incrementScore(3, 'home')">+3</button>
+					<button onclick="incrementScore(5, 'home')">+5</button>
+				</div>
+			</div>
+			<div>
+				<h3>GUEST</h3>
+				<div class="counter-display">
+					<h1 id="counter-display-guest">0</h1>
+				</div>
+				<div class="increment-buttons">
+					<button onclick="incrementScore(1, 'guest')">+1</button>
+					<button onclick="incrementScore(3, 'guest')">+3</button>
+					<button onclick="incrementScore(5, 'guest')">+5</button>
+				</div>
+			</div>
+		</div>
+		<script
+			defer
+			src="index.js"></script>
+	</body>
+</html>
