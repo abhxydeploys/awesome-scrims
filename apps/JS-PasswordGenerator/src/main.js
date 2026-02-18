@@ -1,3 +1,4 @@
+import './style.css'
 const characters = [
 	'A',
 	'B',
@@ -105,17 +106,19 @@ let passEl1 = document.getElementById('pass-1');
 let passEl2 = document.getElementById('pass-2');
 let copyConfirmMsg = document.getElementById('copy-confirmation')
 
-/* let generateBtn = document.getElementById('generateBtn')
+let generateBtn = document.getElementById('generateBtn')
 generateBtn.addEventListener('click', () => {
     passEl1.textContent = generatePassword();
     passEl2.textContent = generatePassword();
 })
-*/
 
-function updatePasswords() {
-    passEl1.textContent = generatePassword()
-    passEl2.textContent = generatePassword()
+/* 
+export function updatePasswords() {
+	passEl1.textContent = generatePassword();
+	passEl2.textContent = generatePassword();
+	console.log('passwords updated');
 }
+*/
 
 // click to copy
 let passwords = document.querySelectorAll('.pwds');

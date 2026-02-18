@@ -5,9 +5,6 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="stylesheet"
-			href="index.css" />
 		<title>Passowrd Generator</title>
 	</head>
 	<body>
@@ -18,18 +15,27 @@
 			</h1>
 			<p>Never use an insecure password again.</p>
 
-			<!--<button id="generateBtn">Generate passwords</button> -->
-            <button onclick="updatePasswords()">Generate passwords</button>
+			<button id="generateBtn">Generate passwords</button>
+			<!--<button onclick="updatePasswords()">Generate passwords</button>-->
 
-			<hr style="border: .5px solid #2f3e53; margin: 40px 0;"/>
+			<hr style="border: 0.5px solid #2f3e53; margin: 40px 0" />
 
 			<div class="passwords">
-				<p id="pass-1" class="pwds"></p>
-				<p id="pass-2" class="pwds"></p>
-                <span style="display: none;color: white; padding-top: 8px;" id="copy-confirmation">Copied!</span>
+				<p
+					id="pass-1"
+					class="pwds"></p>
+				<p
+					id="pass-2"
+					class="pwds"></p>
+				<span
+					style="display: none; color: white; padding-top: 8px"
+					id="copy-confirmation"
+					>Copied!</span
+				>
 			</div>
 		</div>
-
-		<script src="index.js"></script>
+		<script
+			type="module"
+			src="/src/main.js"></script>
 	</body>
 </html>
