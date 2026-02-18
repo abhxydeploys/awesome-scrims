@@ -1,7 +1,4 @@
 {
 	"name": "awesome-scrims",
 	"private": true,
-	"workspaces": [
-		"apps/*"
-	]
 }
